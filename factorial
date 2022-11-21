@@ -1,7 +1,7 @@
 #include<stdio.h>
 main()
 {
- int fact = 1 , i , n;
+ int fact = 1 , i , n add , a , b;
  
  printf("\n Enter n = ");
  scanf("%d",&n)
@@ -12,3 +12,14 @@ main()
   )
   printf("\n Factorial = );
   }
+  void main()
+  {
+   int a , b , c;
+   
+   printf("\n Enter a and b = ");
+   scanf("\n %d%d",&a,&b);
+   
+   c = a + b;
+   
+   printf("\n Addition of a and b = %d",c);
+   }
